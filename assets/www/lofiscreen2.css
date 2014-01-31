@@ -1,0 +1,264 @@
+/*=============================================*/
+/* LO-FI SCREEN CSS FILE                       */
+/* (c) 2004 Invision Power Services, Inc.      */
+/* This CSS by: Matthew Mecham                 */
+/*=============================================*/
+
+BODY
+{ 
+	background-color: #DEDEDE;
+	color: #000000;
+	font-family: Verdana, Tahoma, Arial, "Trebuchet MS", Sans-Serif, Georgia, Courier, "Times New Roman", Serif;
+	font-size: 1em;
+	margin: 20px;
+	padding: 0px;
+}
+
+.ipbnav
+{
+	font-size: 11px;
+	font-weight: bold;
+	border:1px solid gray;
+	padding:10px;
+}
+
+.ipbpagespan
+{
+	font-size: 11px;
+	font-weight: bold;
+	border:1px solid gray;
+	padding:10px;
+	margin-top: 10px;
+}
+
+.ipbnavsmall
+{
+	font-size: 10px;
+	font-weight: bold;
+	border:1px dotted lightgray;
+	padding:8px 8px 8px 8px;
+	text-align:center;
+	width:350px;
+	float:right;
+}
+
+#largetext
+{
+	font-size: 1.0em;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding-top: 3px;
+	width:auto;
+}
+
+#ipbwrapper
+{
+
+}
+
+#ipbcopyright
+{
+	margin-top: 10px;
+	font-size: 10px;
+	text-align:center;
+}
+
+#ipbcontent
+{
+	padding: 10px;
+	margin-top:10px;
+	border:1px solid gray;
+}
+
+
+
+.topicwrap,
+.forumwrap
+{
+	line-height:130%;
+}
+
+.topicwrap ul,
+.forumwrap ul
+{
+	list-style-type: none;
+}
+
+.topicwrap li,
+.forumwrap li
+{
+	font-size: 1em;
+}
+
+.forumwrap strong
+{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.desc
+{
+	color: gray;
+	font-size: 10px;
+}
+
+.smalltext
+{
+	color: gray;
+	font-size: 10px;
+	text-align:center;
+	padding:10px;
+}
+
+/*---------------------------------------*/
+/* Post view */
+/*---------------------------------------*/
+
+
+.postwrapper
+{
+	border:1px solid #E6E3E4;
+	padding:1px;
+	margin-bottom: 15px;
+}
+
+.posttopbar
+{
+	background-color: #E6E3E4;
+	padding: 6px;
+}
+
+.postname
+{
+	font-weight: bold;
+	font-size: 0.8em;
+	width: auto;
+	float:left;
+}
+
+.postdate
+{
+	width:auto;
+	font-size: 0.8em;
+	color: gray;
+	text-align:right;
+}
+
+.postcontent
+{
+	padding: 6px;
+	font-size: 0.1em;
+}
+
+/*---------------------------------------*/
+/* NEW QUOTE / CODE WRAPPERS             */
+/*---------------------------------------*/
+
+.quotetop
+{
+	color: #000;
+	margin: 8px auto 0px auto;
+	font-weight:bold;
+	font-size:10px;
+	padding: 8px;
+	background-color:#E4EAF2;
+	border-left: 4px solid #8394B2;
+	border-top: 1px dotted #000;
+	border-right: 1px dotted #000;
+}
+.quotemain
+{
+	color: #465584;
+	background-color: #FAFCFE;
+	border-left: 4px solid #8394B2;
+	border-right: 1px dotted #000;
+	/*border-top: 1px dotted #000;*/
+	border-bottom: 1px dotted #000;
+	padding: 4px;
+	margin: 0px auto 8px auto;
+}
+
+.codetop,
+.sqltop,
+.htmltop
+{
+	width:98%;
+	color: #000;
+	margin: 0px auto 0px auto;
+	font-weight:bold;
+	padding: 3px;
+	background-color:#FDDBCC;
+	background-repeat: no-repeat;
+}
+.codemain,
+.sqlmain,
+.htmlmain
+{
+	font-family: Courier, "Courier New", Verdana, Arial;
+	color: #465584;
+	background-color: #FAFCFE;
+	border: 1px dotted #000;
+	padding: 10px;
+	width:98%;
+	margin-left: 10px;
+	/*overflow: auto;
+	height: 200px;*/
+}
+
+/*---------------------------------------*/
+/* IPB  3.3                              */
+/*---------------------------------------*/
+
+pre.prettyprint {
+    background: none repeat scroll 0 0 #F8F8F8;
+    border: 1px solid #C9C9C9;
+    font-size: 11px;
+    line-height: 140%;
+    margin-left: 10px;
+    overflow: auto;
+    padding: 5px;
+}
+
+p.citation {
+    background: -moz-linear-gradient(center top , #F6F6F6 0%, #E5E5E5 100%) repeat scroll 0 0 transparent;
+    background-color: #E5E5E5;
+    border-left: 2px solid #989898;
+    border-radius: 5px 5px 0 0;
+    border-right: 2px solid #E5E5E5;
+    border-top: 2px solid #E5E5E5;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 8px 10px;
+    margin: 0;
+    color: #ffff;
+}
+
+div.blockquote {
+    background: none repeat scroll 0 0 #F7F7F7;
+    border-bottom: 1px solid #E5E5E5;
+    border-left: 2px solid #989898;
+    border-radius: 0 0 5px 5px;
+    border-right: 2px solid #E5E5E5;
+    font-size: 12px;
+    padding: 10px;
+	color: #465584
+}
+
+div.quote{
+    margin: 0;
+    padding: 0;
+}
+
+.snapback { 
+	margin-right: 5px;
+	padding: 1px 0px 1px 1px;
+}
+
+.postcontent {
+    margin-top: 1em;
+    margin-bottom: 1em; 
+}
+
+.postcontent p{
+    margin: 0px;
+}
